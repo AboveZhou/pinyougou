@@ -1,0 +1,182 @@
+.main {
+	margin-left: 219px;
+	margin-top: 10px;
+	width: 980px;
+	height: 455px;
+	/*background-color: pink;*/
+}
+.focus {
+	position: relative;
+	width: 721px;
+	height: 455px;
+	/*background-color: orange;*/
+}
+.focus .arrow_l,
+.focus .arrow_r {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+}
+.focus .arrow_l {
+	left: 0;
+}
+.focus .arrow_r {
+	right: 0;
+}
+.focus .circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.focus .circle li {
+	float: left;
+	margin: 0 3px;
+	width: 8px;
+	height: 8px;
+	border: 2px solid rgba(255,255,255,0.5);  
+	border-radius: 50%;
+	cursor: pointer;
+}
+.focus .circle .current {
+	background-color: #fff;
+}
+.newsflash {
+	width: 250px;
+	height: 455px;
+	
+}
+.news {
+	width: 248px;
+	height: 163px;
+	border: 1px solid #e4e4e4;
+	border-bottom: none;
+}
+.news_hd {
+	padding: 0 20px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px dotted #e8e8e7;
+}
+.news_hd h4 {
+	float: left;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+.news_hd a {
+	float: right;
+	font-size: 14px;
+	font-family: 'icomoon';
+}
+.new_bd {
+	padding: 10px 0 0 10px;
+}
+.new_bd li {
+	height: 22px;
+	font-size: 14px;
+}
+.lifeservice {
+	overflow: hidden;
+	width: 248px;
+	height: 208px;
+	border: 1px solid #e8e8e7;
+}
+.lifeservice ul {
+	width: 255px;
+}
+.lifeservice li {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 62px;
+	height: 70px;
+	text-align: center;
+	border-right: 1px solid #e8e8e7;
+	border-bottom: 1px solid #e8e8e7;
+}
+.service_ico {
+	margin:10px auto;
+	display: block;
+	width: 23px;
+	height: 22px;
+	/*background-color: pink;*/
+	background: url(../img/icons.png) no-repeat;
+}
+.service_ico_huafei {
+	background-position: -19px -16px;
+}
+.service_ico_jipiao {
+	background-position: -80px -18px;
+}
+.service_ico_dianyingpiao {
+	background-position: -142px -18px;
+}
+.service_ico_youxi {
+	background-position: -206px -18px;
+}
+.service_ico_caipiao {
+	background-position: -18px -89px;
+}
+.service_ico_jiayouz {
+	background-position: -80px -88px;
+}
+.service_ico_jiudian {
+	background-position: -143px -88px;
+}
+.service_ico_huochepiao {
+	background-position: -209px -88px;
+}
+.lifeservice .hot {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+	/*background-color: pink;*/
+	background-image: url(../img/jian.jpg);
+}
+.bargain {
+	margin-top: 5px;
+	width: 250px;
+	height: 75px;
+}
+.recommend {
+	margin-top: 11px;
+	height: 163px;
+	background-color: pink;
+}
+.recommend_l {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+}
+.recommend_l img {
+	display: block;
+	margin: 30px auto 20px;
+	/*margin-top: 30px;*/
+}
+.recommend_l p {
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+.recommend_r {
+	padding: 10px 0;
+	width: 1000px;
+	height: 143px;
+	background-color: #ebebeb;
+}
+.recommend_r li {
+	float: left;
+	width: 249px;
+	height: 142px;
+	border-right: 1px solid #ddd;
+}
+.recommend_r .last {
+	border-right: none;
+}
